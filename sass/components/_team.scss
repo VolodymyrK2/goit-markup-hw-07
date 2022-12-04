@@ -1,0 +1,60 @@
+/* Команда */
+.team {
+    background-color: var(--secondary-background-color);
+}
+
+.team__list {
+    display: flex;
+    flex-wrap: wrap;
+
+    margin-top: calc(-1 * var(--card-gap));
+    margin-left: calc(-1 * var(--card-gap));
+}
+
+.team-card__image {
+    margin-bottom: var(--card-gap);
+}
+
+.team-card {
+    flex-basis: calc((100% - 4 * var(--card-gap))/4);
+    margin-left: var(--card-gap);
+    margin-top: var(--card-gap);
+    background-color: var(--card-background-color);
+    border-radius: 0 0 4px 4px;
+    box-shadow: 0 2px 1px rgba(0, 0, 0, 0.2),
+        0 1px 1px rgba(0, 0, 0, 0.14),
+        0 1px 3px rgba(0, 0, 0, 0.12);
+}
+
+.team__title {
+    margin-bottom: 50px;
+
+    font-weight: 700;
+    font-size: 36px;
+    line-height: calc(42/36);
+    text-align: center;
+
+    color: var(--title-text-color);
+}
+
+.team-card__title {
+    margin-bottom: 10px;
+
+    font-weight: 500;
+    font-size: 16px;
+    line-height: calc(19/16);
+    text-align: center;
+
+    color: var(--title-text-color);
+}
+
+.team-card__text {
+    margin-bottom: 16px;
+    font-size: 16px;
+    line-height: calc(19/16);
+    text-align: center;
+}
+
+.team-card__social-list {
+    margin-bottom: var(--card-gap);
+}

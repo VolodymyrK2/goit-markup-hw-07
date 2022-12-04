@@ -1,0 +1,41 @@
+.page-body {
+    background-color: var(--primery-background-color);
+    color: var(--primery-text-color);
+
+    font-family: var(--main-font);
+    letter-spacing: 0.03em;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+
+}
+
+.section {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
+h1,
+h2,
+h3,
+p {
+    margin: 0;
+}
+
+.list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.img {
+    display: block;
+    max-width: 100%;
+}
